@@ -65,7 +65,7 @@ set :domain, 'mtp.dubje.uberspace.de'
 #     # password: 'please use keys'
 #   }
 
-server 'mtp.dubhe.uberspace.de',
+server 'dubhe.uberspace.de',
        user: 'mtp',
        roles: [:app, :web, :cron, :db],
        primary: true,

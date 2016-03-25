@@ -47,6 +47,11 @@
 #    auth_methods: %w(password)
 #  }
 #
+
+set :user, 'mtp'
+set :branch, :master
+set :domain, 'mtp.dubje.uberspace.de'
+
 # The server-based syntax can be used to override options:
 # ------------------------------------
 # server 'example.com',
@@ -59,3 +64,13 @@
 #     auth_methods: %w(publickey password)
 #     # password: 'please use keys'
 #   }
+
+server 'mtp.dubhe.uberspace.de',
+       user: 'mtp',
+       roles: [:app, :web, :cron, :db],
+       primary: true,
+       ssh_options: {
+         keys: %w{~/.ssh/authorized_keys},
+         forward_agent: true,
+         auth_methods: %w(publickey)
+       }

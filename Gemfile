@@ -4,7 +4,7 @@ ruby '2.2.3'
 
 #deploy on uberspace with capistrano-uberspace
 gem 'capistrano'
-gem 'capistrano-uberspace', path: "/Users/jan/RubymineProjects/gems/uberspace-" #github: 'mediatainment/capistrano-uberspace'
+gem 'capistrano-uberspace', github: 'mediatainment/capistrano-uberspace'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'

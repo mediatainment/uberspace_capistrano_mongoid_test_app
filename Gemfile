@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
+ruby '2.2.3'
+
 #deploy on uberspace with capistrano-uberspace
 gem 'capistrano'
 gem 'capistrano-uberspace', github: 'mediatainment/capistrano-uberspace'

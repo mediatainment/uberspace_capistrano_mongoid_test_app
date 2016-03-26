@@ -85,6 +85,7 @@ GEM
     mini_portile2 (2.0.0)
     minitest (5.8.4)
     multi_json (1.11.2)
+    mysql2 (0.3.20)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (3.1.1)
@@ -166,6 +167,7 @@ DEPENDENCIES
   capistrano
   capistrano-uberspace!
   jbuilder (~> 2.0)
+  mysql2
   rails (= 4.2.4)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)

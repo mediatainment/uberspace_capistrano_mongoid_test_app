@@ -4,7 +4,6 @@ lock '3.4.0'
 set :application, "TestApp"
 set :repo_url, 'git@github.com:mediatainment/uberspace_capistrano_mongoid_test_app.git'
 set :ruby_version, fetch(:ruby_version, '2.2.3')
-set :rubyversion, fetch(:ruby_version)
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 

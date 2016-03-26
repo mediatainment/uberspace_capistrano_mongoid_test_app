@@ -52,7 +52,6 @@ set :user, 'mtp'
 set :branch, :master
 set :domain, 'mtp.dubhe.uberspace.de'
 set :ruby_version, '2.2.3'
-set :rubyversion, '2.2.2' #only for testing
 # The server-based syntax can be used to override options:
 # ------------------------------------
 # server 'example.com',

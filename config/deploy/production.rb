@@ -50,7 +50,7 @@
 
 set :user, 'mtp'
 set :branch, :master
-set :domain, 'mtp.dubje.uberspace.de'
+set :domain, 'mtp.dubhe.uberspace.de'
 
 # The server-based syntax can be used to override options:
 # ------------------------------------
